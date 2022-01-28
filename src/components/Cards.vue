@@ -1,0 +1,83 @@
+<template>
+  <div v-if="projects.length" class="cd">
+    <div v-for="project in projects" :key="project.id">
+      <div class="card border-secondary" style="width: 18rem">
+        <img class="card-img-top" :src="project.img" />
+        <div class="card-body">
+          <h3>{{ project.title }}</h3>
+        </div>
+        <div class="card-body">
+          <a
+            :href="project.github"
+            class="card-link text-secondary"
+            target="_blank"
+          >
+            <button
+              class="btn border-secondary text-secondary"
+              style="border: 2px solid"
+            >
+              Github
+            </button>
+          </a>
+          <a
+            :href="project.netlify"
+            class="card-link text-dark"
+            target="_blank"
+          >
+            <button class="btn btn-secondary text-dark">Netlify</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      projects: [],
+    };
+  },
+  mounted() {
+    fetch("http://localhost:3000/projects")
+      .then((res) => res.json())
+      .then((data) => (this.projects = data))
+      .catch((err) => console.log(err.message));
+  },
+};
+</script>
+
+<style scoped>
+h2 {
+  color: rgb(255, 255, 255);
+}
+h3 {
+  color: white;
+}
+.card-body {
+  border-radius: 10px;
+}
+.cd {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 3px solid;
+  position: unset;
+}
+.card-img-top {
+  border-radius: 10px;
+  height: 250px;
+}
+.card-link {
+  text-decoration: none;
+}
+.btn {
+  margin: 15px;
+  font-weight: bolder;
+}
+</style>
