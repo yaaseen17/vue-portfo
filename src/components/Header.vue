@@ -1,6 +1,6 @@
 <template>
   <div class="head">
-    <h1 class="sentence"><Typewriter /></h1>
+    <h1 class="sentence">Yaaseen Davids Web Developer</h1>
     <div class="icon-d">
       <a
         href="https://www.linkedin.com/in/yaaseen-davids-475b18219/"
@@ -54,10 +54,7 @@
 </template>
 
 <script>
-import Typewriter from "../../node_modules/vue-typewriter/src/Typewriter.vue";
-export default {
-  components: { Typewriter },
-};
+export default {};
 </script>
 
 <style scoped>
