@@ -12,10 +12,25 @@
         <a href="#home"><li>Home</li></a>
         <a href="#about"><li>About</li></a>
         <a href="#projects"><li>Projects</li></a>
+        <a href="#testamonials"><li>Testimonials</li></a>
         <a href="#contact"><li>Contact</li></a>
       </ul>
     </div>
   </nav>
+  <a href="#home" class="bck"
+    ><svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="40"
+      height="40"
+      fill="currentColor"
+      class="bi bi-chevron-bar-up"
+      viewBox="0 0 16 16"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M3.646 11.854a.5.5 0 0 0 .708 0L8 8.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708zM2.4 5.2c0 .22.18.4.4.4h10.4a.4.4 0 0 0 0-.8H2.8a.4.4 0 0 0-.4.4z"
+      /></svg
+  ></a>
   <section id="about"><About /></section>
   <section id="projects"><Projects /></section>
   <section id="testamonials"><Testimonials /></section>
@@ -45,7 +60,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: rgb(128, 128, 128);
 }
 
 #home {
@@ -76,7 +90,14 @@ export default {
   -webkit-user-select: none;
   user-select: none;
 }
-
+.bck {
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+  float: right;
+  margin-right: 50px;
+  color: white;
+}
 #menuToggle a {
   text-decoration: none;
   color: #232323;

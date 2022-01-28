@@ -1,6 +1,6 @@
 <template>
   <div class="testimonials">
-    <h1>Testimoniials</h1>
+    <h1>Testimonials</h1>
     <div
       id="carouselExampleIndicators"
       class="carousel slide"
@@ -177,6 +177,7 @@ p {
 h1 {
   color: white;
   font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
 }
 h2 {
   color: white;
