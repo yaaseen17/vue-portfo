@@ -12,7 +12,7 @@
           I am a highly motivated, creative and ambitious individual who thrives
           off problem solving and challenging my capabalities. I am extremely
           enthusiastic about introducing fresh ideas as well as learning new
-          methods or skills that will satisfy any entity i may represent
+          methods or skills that will satisfy any entity i may represent.
         </p>
       </div>
       <div class="grid-item-right">
@@ -35,7 +35,7 @@
           </li>
         </ul>
 
-        ><button class="btn btn-secondary">My CV</button>
+        <button class="btn btn-secondary">My CV</button>
         <button class="btn btn-secondary" @click="toggleModal">
           My Skills
         </button>
@@ -123,5 +123,10 @@ h4 {
   color: white;
   font-family: "Courier New", Courier, monospace;
   font-size: 40px;
+}
+@media screen and (max-width: 650px) {
+  img {
+    display: none;
+  }
 }
 </style>

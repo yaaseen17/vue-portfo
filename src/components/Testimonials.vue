@@ -36,7 +36,9 @@
           <h3>Colleague</h3>
           <p>
             <span class="stuff">"</span>
-            Yaaseen
+            Yaseen is consistent, dependable and accurate in carrying out
+            responsibilities to a successful conclusion.He also display an
+            ability to learn rapidly and adapt quickly to changing situations.
             <span class="stuff">"</span>
           </p>
         </div>
