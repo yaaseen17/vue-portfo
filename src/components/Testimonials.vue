@@ -9,7 +9,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="../assets/IMG_20220125_114624.jpg"
+            src="../assets/Muneeb3_1_11zon-min.jpg"
             class="d-block"
             alt="..."
             height="150px"
@@ -26,7 +26,7 @@
         </div>
         <div class="carousel-item">
           <img
-            src="../assets/IMG_20220125_114624.jpg"
+            src="../assets/Na-aim3_7_11zon-min.jpg"
             class="d-block"
             alt="..."
             height="150px"
@@ -36,13 +36,13 @@
           <h3>Colleague</h3>
           <p>
             <span class="stuff">"</span>
-              Yaaseen 
+            Yaaseen
             <span class="stuff">"</span>
           </p>
         </div>
         <div class="carousel-item">
           <img
-            src="../assets/IMG_20220125_114624.jpg"
+            src="../assets/Breda_Y1_6_11zon-min.jpg"
             class="d-block"
             alt="..."
             height="150px"
@@ -52,7 +52,8 @@
           <h3>Colleague</h3>
           <p>
             <span class="stuff">"</span>
-           Yaaseen designs are pleasing to the eye and he is always enthusiastic<span class="stuff">"</span>
+            Yaaseen designs are pleasing to the eye and he is always
+            enthusiastic<span class="stuff">"</span>
           </p>
         </div>
         <div class="carousel-item">
@@ -75,7 +76,7 @@
         </div>
         <div class="carousel-item">
           <img
-            src="../assets/IMG_20220125_114624.jpg"
+            src="../assets/alex_5_11zon-min.jpg"
             class="d-block"
             alt="..."
             height="150px"
@@ -108,40 +109,40 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>
-    <div class="carousel-indicators">
-      <button
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="0"
-        class="active"
-        aria-current="true"
-        aria-label="Slide 1"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="1"
-        aria-label="Slide 2"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="2"
-        aria-label="Slide 3"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="3"
-        aria-label="Slide 4"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="4"
-        aria-label="Slide 5"
-      ></button>
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+      </div>
     </div>
   </div>
 </template>
@@ -158,10 +159,14 @@
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
+.control-prev {
+  margin-left: 100px;
+}
 img {
   margin: auto;
   border-radius: 50%;
 }
+
 p {
   text-align: center;
   width: 50%;

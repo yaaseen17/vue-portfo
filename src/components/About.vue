@@ -3,7 +3,7 @@
     <div class="grid-container">
       <div class="grid-item">
         <img
-          src="../assets/IMG_20220125_114624.jpg"
+          src="../assets/Yaseen3_9_11zon-min.jpg"
           width="200px"
           height="200px"
         />
@@ -34,7 +34,8 @@
             Phone: <span class="ans">066 267 7072</span>
           </li>
         </ul>
-        <button class="btn btn-secondary">My CV</button>
+
+        ><button class="btn btn-secondary">My CV</button>
         <button class="btn btn-secondary" @click="toggleModal">
           My Skills
         </button>
