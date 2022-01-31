@@ -60,7 +60,7 @@ export default {};
 <style scoped>
 .head {
   background: linear-gradient(rgb(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
-    url(https://digxsolutions.com/wp-content/uploads/2018/10/computer-1.jpg);
+    url(../assets/computer-1-min.jpg);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
