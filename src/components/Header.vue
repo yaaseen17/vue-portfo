@@ -1,6 +1,6 @@
 <template>
   <div class="head">
-    <h1 class="sentence">Yaaseen Davids Web Developer</h1>
+    <div class="typewriter"><h1>Yaaseen Davids Web Developer</h1></div>
     <div class="icon-d">
       <a
         href="https://www.linkedin.com/in/yaaseen-davids-475b18219/"
@@ -70,16 +70,36 @@ export default {};
   flex-direction: column;
   color: black;
 }
-.sentence {
-  height: 100px;
-  margin-top: 100px;
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 6.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
 h1 {
   color: rgb(0, 0, 0);
   font-family: "Courier New", Courier, monospace;
-  font-size: 60px;
+  font-size: 40px;
   position: sticky;
   height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.typewriter {
+  margin-top: 150px;
 }
 #move {
   margin-top: 10%;

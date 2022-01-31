@@ -34,8 +34,6 @@
             Phone: <span class="ans">066 267 7072</span>
           </li>
         </ul>
-
-        <button class="btn btn-secondary">My CV</button>
         <button class="btn btn-secondary" @click="toggleModal">
           My Skills
         </button>

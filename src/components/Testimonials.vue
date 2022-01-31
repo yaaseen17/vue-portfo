@@ -60,7 +60,7 @@
         </div>
         <div class="carousel-item">
           <img
-            src="../assets/IMG_20220125_114624.jpg"
+            src="../assets/IMG-20220131-WA0043-min.jpg"
             class="d-block"
             alt="..."
             height="150px"
@@ -70,10 +70,9 @@
           <h3>Colleague</h3>
           <p>
             <span class="stuff">"</span>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-            consequatur corrupti, numquam explicabo quidem iusto. Alias in
-            quibusdam, non natus sapiente eius tenetur, quos temporibus laborum
-            voluptas ipsam quod facilis.<span class="stuff">"</span>
+            Yaaseen is consistent in his work and always pushes his skills
+            further to expand his knowledge and skill.
+            <span class="stuff">"</span>
           </p>
         </div>
         <div class="carousel-item">
@@ -177,6 +176,10 @@ p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   height: 150px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5%;
 }
 .carousel-item {
   align-items: center;

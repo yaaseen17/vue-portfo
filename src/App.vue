@@ -12,6 +12,7 @@
         <a href="#home"><li>Home</li></a>
         <a href="#about"><li>About</li></a>
         <a href="#projects"><li>Projects</li></a>
+        <a href="#resume"><li>Resume</li></a>
         <a href="#testamonials"><li>Testimonials</li></a>
         <a href="#contact"><li>Contact</li></a>
       </ul>
@@ -33,6 +34,7 @@
   ></a>
   <section id="about"><About /></section>
   <section id="projects"><Projects /></section>
+  <section id="resume"><Resume /></section>
   <section id="testamonials"><Testimonials /></section>
   <section id="contact"><Contact /></section>
 </template>
@@ -43,6 +45,7 @@ import About from "./components/About.vue";
 import Contact from "./components/Contact.vue";
 import Projects from "./components/Projects.vue";
 import Testimonials from "./components/Testimonials.vue";
+import Resume from "./components/Resume.vue";
 export default {
   components: {
     Header,
@@ -50,6 +53,7 @@ export default {
     Contact,
     Projects,
     Testimonials,
+    Resume,
   },
 };
 </script>
@@ -60,6 +64,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  background-color: rgb(131, 131, 131);
 }
 
 #home {
@@ -77,6 +82,16 @@ export default {
 #projects {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+#resume {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: sticky;
+}
+#testamonial {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: sticky;
 }
 
 #menuToggle {
