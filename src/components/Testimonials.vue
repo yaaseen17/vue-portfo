@@ -17,7 +17,7 @@
             width="150px"
           />
           <h2>Muneeb Davids</h2>
-          <a href="https://github.com/Na-aim" target="_blank"
+          <a href="https://github.com/Mogamat-Muneeb" target="_blank"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               width="26"
