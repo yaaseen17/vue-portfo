@@ -1,6 +1,11 @@
 <template>
   <div class="head">
-    <div class="typewriter"><h1>Yaaseen Davids Web Developer</h1></div>
+    <div class="typewriter">
+      <h1>
+        Yaaseen Davids <br />
+        Web Developer
+      </h1>
+    </div>
     <div class="icon-d">
       <a
         href="https://www.linkedin.com/in/yaaseen-davids-475b18219/"
@@ -113,5 +118,10 @@ h1 {
 }
 .icon-d {
   margin-top: 130px;
+}
+@media screen and (max-width: 440px) {
+  h1 {
+    font-size: 30px;
+  }
 }
 </style>

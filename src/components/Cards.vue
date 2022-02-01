@@ -1,7 +1,7 @@
 <template>
   <div v-if="projects.length" class="cd">
     <div v-for="project in projects" :key="project.id">
-      <div class="card border-secondary" style="width: 18rem">
+      <div class="card">
         <img class="card-img-top" :src="project.img" />
         <div class="card-body">
           <h3>{{ project.title }}</h3>
@@ -12,10 +12,7 @@
             class="card-link text-secondary"
             target="_blank"
           >
-            <button
-              class="btn border-secondary text-secondary"
-              style="border: 2px solid"
-            >
+            <button class="btn text-secondary" style="border: 2px solid">
               Github
             </button>
           </a>
@@ -66,8 +63,9 @@ h3 {
   margin: 20px;
   border-radius: 10px;
   background-color: transparent;
-  border: 3px solid;
+  border: 3px solid rgb(131, 131, 131);
   position: unset;
+  width: 18rem;
 }
 .card-img-top {
   border-radius: 10px;
@@ -79,5 +77,11 @@ h3 {
 .btn {
   margin: 15px;
   font-weight: bolder;
+}
+@media screen and (max-width: 460px) {
+  .card {
+    width: 15rem;
+    margin: auto;
+  }
 }
 </style>

@@ -425,9 +425,18 @@ hr {
   }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 570px) {
   .send-button {
     width: 99%;
+  }
+  .form-horizontal {
+    width: 200px;
+  }
+  .form-group {
+    width: 200px;
+  }
+  .section-header {
+    font-size: 30px;
   }
 }
 </style>

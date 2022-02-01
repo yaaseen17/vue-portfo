@@ -256,4 +256,9 @@ h3 {
 .stuff {
   font-size: 40px;
 }
+@media screen and (max-width: 500px){
+  h1{
+    font-size: 30px;
+  }
+}
 </style>

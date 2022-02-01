@@ -93,13 +93,15 @@ h1 {
   margin-left: 65%;
   margin-top: 10px;
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
 }
 .rh {
   margin-right: 65%;
   margin-top: 10px;
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
 }
 .main-timeline {
   font-family: "Poppins", sans-serif;
@@ -274,6 +276,14 @@ h1 {
     left: 50%;
     right: auto;
     top: 11px;
+  }
+}
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 30px;
+  }
+  .lh {
+    margin-left: 45%;
   }
 }
 </style>
