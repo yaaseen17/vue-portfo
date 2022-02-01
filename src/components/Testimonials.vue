@@ -1,6 +1,7 @@
 <template>
   <div class="testimonials">
     <h1>Testimonials</h1>
+
     <div
       id="carouselExampleIndicators"
       class="carousel slide"
@@ -66,7 +67,7 @@
             height="150px"
             width="150px"
           />
-          <h2>Nadeem Jhonsons</h2>
+          <h2>Nadeem Jhonson</h2>
           <h3>Colleague</h3>
           <p>
             <span class="stuff">"</span>
@@ -148,7 +149,56 @@
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  data() {
+    return {
+      testimonials: [
+        {
+          name: "Muneeb Davids",
+          status: "Colleague",
+          testiminial:
+            "Yaaseen is a person that is drivven by succes and he is always puts in the hardwork.",
+          img: "../assets/Muneeb3_1_11zon-min.jpg",
+          id: 1,
+        },
+        {
+          name: "Na-aim Fredericks",
+          status: "Colleague",
+          testiminial:
+            "Yaseen is consistent, dependable and accurate in carrying out responsibilities to a successful conclusion.He also display an ability to learn rapidly and adapt quickly to changing situations.",
+          img: "../assets/Na-aim3_7_11zon-min.jpg",
+          id: 2,
+        },
+        {
+          name: "Mugammad Breda",
+          status: "Colleague",
+          testiminial:
+            "Yaaseen designs are pleasing to the eye and he is always enthusiastic at any given time,",
+          img: "../assets/Breda_Y1_6_11zon-min.jpg",
+          id: 3,
+        },
+        {
+          name: "Nadeem Jhonson",
+          status: "Colleague",
+          testiminial:
+            "Yaaseen is consistent in his work and always pushes his skills further to expand his knowledge and skill.",
+          img: "../assets/IMG-20220131-WA0043-min.jpg",
+          id: 4,
+        },
+        {
+          name: "Alex Sexwale",
+          status: "Lecturer",
+          testiminial:
+            "Yaaseen takes prive in the work he produces. When he puts his mind to it he is able to archieve greatness.",
+          img: "../assets/IMG-20220131-WA0043-min.jpg",
+          id: 5,
+        },
+      ],
+    };
+  },
+};
+</script>
 
 <style scoped>
 .testimonials {

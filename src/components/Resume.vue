@@ -8,49 +8,58 @@
             <div class="timeline">
               <h3 class="lh">Education</h3>
               <div class="timeline-content">
-                <div class="timeline-step"><span>2020</span>01</div>
+                <div class="timeline-step"><span>2020</span>12</div>
                 <h3 class="title">National senior certificate</h3>
-                <p class="description"></p>
+                <p class="description">
+                  I completed my matric in 2020 at Claremont High School. My
+                  subjects was Physics, Pure Maths, Accounting, Geography,
+                  English, Afrikaans, Life Orientation
+                </p>
               </div>
             </div>
             <div class="timeline">
               <h3 class="rh">Work</h3>
               <div href="#" class="timeline-content">
-                <div class="timeline-step"><span>step</span>02</div>
+                <div class="timeline-step"><span>2021</span>01</div>
                 <h3 class="title">Catering</h3>
                 <p class="description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer males uada tellus lorem, et condimentum neque commodo
-                  Integer males uada tellus lorem, et condimentum neque commodo
+                  I worked at a catering company called AA catering in the
+                  december holidays and in the first two months of 2021.
                 </p>
               </div>
             </div>
             <div class="timeline">
-                <h3 class="lh">Education</h3>
+              <h3 class="lh">Education</h3>
               <div class="timeline-content">
-                <div class="timeline-step"><span>2020</span>01</div>
+                <div class="timeline-step"><span>2021</span>05</div>
                 <h3 class="title">Drone Aviation</h3>
-                <p class="description"></p>
+                <p class="description">
+                  I studied drone avaiation and completed my aviation course
+                  from May to July, so i am a qualified Drone Pilot.
+                </p>
               </div>
             </div>
             <div class="timeline">
-                <h3 class="rh">Work</h3>
+              <h3 class="rh">Work</h3>
               <div href="#" class="timeline-content">
-                <div class="timeline-step"><span>step</span>02</div>
+                <div class="timeline-step"><span>2021</span>07</div>
                 <h3 class="title">Construction</h3>
                 <p class="description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer males uada tellus lorem, et condimentum neque commodo
-                  Integer males uada tellus lorem, et condimentum neque commodo
+                  I worked for a construction company called M S Renovations and
+                  Projects from July to September.
                 </p>
               </div>
             </div>
-             <div class="timeline">
-                 <h3 class="lh">Education</h3>
+            <div class="timeline">
+              <h3 class="lh">Education</h3>
               <div class="timeline-content">
-                <div class="timeline-step"><span>2020</span>01</div>
+                <div class="timeline-step"><span>2021</span>09</div>
                 <h3 class="title">Web Developement</h3>
-                <p class="description"></p>
+                <p class="description">
+                  In September of 2021 i started my course of Web development at
+                  Life Choices Academy, so far i have learnt HTML, CSS,
+                  javascript, Bootsrap, VUE JS, Databases, MYSQl.
+                </p>
               </div>
             </div>
           </div>
