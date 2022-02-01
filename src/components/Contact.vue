@@ -439,4 +439,10 @@ hr {
     font-size: 30px;
   }
 }
+@media screen and (max-width: 500px) {
+  .contacts {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+}
 </style>

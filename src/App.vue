@@ -4,7 +4,6 @@
     <div id="menuToggle">
       <input type="checkbox" />
 
-
       <span></span>
       <span></span>
       <span></span>
@@ -223,10 +222,13 @@ export default {
   font-size: 22px;
 }
 
-/*
- * And let's slide it in from the left
- */
 #menuToggle input:checked ~ ul {
   transform: none;
+}
+@media screen and (max-width: 500px) {
+  section {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
 }
 </style>

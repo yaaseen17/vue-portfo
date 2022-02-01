@@ -127,4 +127,25 @@ h4 {
     display: none;
   }
 }
+@media screen and (max-width: 500px) {
+  .about {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .grid-item {
+    margin-right: 45%;
+  }
+  p {
+    width: 250px;
+  }
+  h3 {
+    font-size: 30px;
+    width: 200px;
+  }
+}
 </style>

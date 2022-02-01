@@ -107,7 +107,7 @@
             width="150px"
           />
           <h2>Nadeem Jhonson</h2>
-           <a href="https://github.com/RoyalAdvisor" target="_blank"
+          <a href="https://github.com/RoyalAdvisor" target="_blank"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               width="26"
@@ -137,7 +137,7 @@
             width="150px"
           />
           <h2>Alex Sexwale</h2>
-           <a href="https://github.com/alexsexwale" target="_blank"
+          <a href="https://github.com/alexsexwale" target="_blank"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               width="26"
@@ -282,7 +282,7 @@ img {
   margin: auto;
   border-radius: 50%;
 }
-svg{
+svg {
   color: white;
 }
 p {
@@ -326,6 +326,10 @@ h3 {
 @media screen and (max-width: 500px) {
   h1 {
     font-size: 30px;
+  }
+  .testimonials {
+    margin-right: 0%;
+    margin-left: 0%;
   }
 }
 </style>

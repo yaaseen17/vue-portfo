@@ -285,5 +285,9 @@ h1 {
   .lh {
     margin-left: 45%;
   }
+  .resume {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
 }
 </style>

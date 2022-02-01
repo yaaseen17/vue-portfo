@@ -35,4 +35,10 @@ h1 {
     font-size: 30px;
   }
 }
+@media screen and (max-width: 500px) {
+  .projects  {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+}
 </style>

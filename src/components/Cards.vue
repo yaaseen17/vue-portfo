@@ -107,4 +107,11 @@ h3 {
     margin: auto;
   }
 }
+@media screen and (max-width: 500px) {
+  .cd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 </style>
