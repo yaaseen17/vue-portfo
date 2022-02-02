@@ -85,12 +85,12 @@ export default {};
 }
 
 .typewriter h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  overflow: hidden;
 
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.15em; /* Adjust as needed */
-  animation: typing 6.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 9.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 h1 {
@@ -123,5 +123,8 @@ h1 {
   h1 {
     font-size: 30px;
   }
+}
+svg:hover {
+  color: black;
 }
 </style>

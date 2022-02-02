@@ -35,7 +35,7 @@
           </li>
         </ul>
         <button class="btn btn-secondary" @click="toggleModal">
-          My Skills
+          Click for my Skills
         </button>
       </div>
     </div>
@@ -95,6 +95,11 @@ li {
 .btn {
   margin-top: 50px;
   margin-left: 10px;
+  color: black;
+}
+.btn:hover {
+  background-color: transparent;
+  color: white;
 }
 h4 {
   margin: 0%;

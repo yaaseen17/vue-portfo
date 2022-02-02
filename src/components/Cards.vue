@@ -12,7 +12,7 @@
             class="card-link text-secondary"
             target="_blank"
           >
-            <button class="btn text-secondary" style="border: 2px solid">
+            <button class="btn text-secondary hovers" style="border: 2px solid">
               Github
             </button>
           </a>
@@ -21,7 +21,12 @@
             class="card-link text-dark"
             target="_blank"
           >
-            <button class="btn btn-secondary text-dark">Netlify</button>
+            <button
+              class="btn btn-secondary text-dark"
+              style="border: 2px solid"
+            >
+              Netlify
+            </button>
           </a>
         </div>
       </div>
@@ -101,6 +106,13 @@ h3 {
   margin: 15px;
   font-weight: bolder;
 }
+.btn-secondary:hover {
+  background: transparent;
+}
+.hovers:hover {
+  background-color: grey;
+}
+
 @media screen and (max-width: 460px) {
   .card {
     width: 15rem;

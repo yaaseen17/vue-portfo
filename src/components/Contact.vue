@@ -87,7 +87,7 @@
             <i class="fa fa-envelope fa-2x"
               ><span class="contact-text gmail"
                 ><a href="mailto:#yaaseendav@gmail.com" title="Send me an email"
-                  >yaaseendav@gmail</a
+                  >yaaseendav@gmail.com</a
                 ></span
               ></i
             >
