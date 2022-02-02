@@ -12,8 +12,8 @@
                 <h3 class="title">National senior certificate</h3>
                 <p class="description">
                   I completed my matric in 2020 at Claremont High School. My
-                  subjects was Physics, Pure Maths, Accounting, Geography,
-                  English, Afrikaans, Life Orientation
+                  subject coices were Physics, Pure Math, Accounting, Geography,
+                  English, Afrikaans and Life Orientation.
                 </p>
               </div>
             </div>
@@ -23,8 +23,8 @@
                 <div class="timeline-step"><span>2021</span>01</div>
                 <h3 class="title">Catering</h3>
                 <p class="description">
-                  I worked at a catering company called AA catering in the
-                  december holidays and in the first two months of 2021.
+                  I worked at a catering company called AA catering during the
+                  December holidays and for the first two months of 2021.
                 </p>
               </div>
             </div>
@@ -34,8 +34,8 @@
                 <div class="timeline-step"><span>2021</span>05</div>
                 <h3 class="title">Drone Aviation</h3>
                 <p class="description">
-                  I studied drone avaiation and completed my aviation course
-                  from May to July, so i am a qualified Drone Pilot.
+                  I studied and completed my drone aviation course
+                  from May to July and obtained my drone pilot licence.
                 </p>
               </div>
             </div>
@@ -45,7 +45,7 @@
                 <div class="timeline-step"><span>2021</span>07</div>
                 <h3 class="title">Construction</h3>
                 <p class="description">
-                  I worked for a construction company called M S Renovations and
+                  I worked for a construction company called MS Renovations and
                   Projects from July to September.
                 </p>
               </div>
@@ -56,9 +56,9 @@
                 <div class="timeline-step"><span>2021</span>09</div>
                 <h3 class="title">Web Developement</h3>
                 <p class="description">
-                  In September of 2021 i started my course of Web development at
-                  Life Choices Academy, so far i have learnt HTML, CSS,
-                  javascript, Bootsrap, VUE JS, Databases, MYSQl.
+                  In September of 2021 i started my course on Web development at
+                  Life Choices Academy. Since my inception in the academy i have become versed in HTML, CSS,
+                  Javascript, Bootsrap, VUE JS, Databases and MYSQl.
                 </p>
               </div>
             </div>

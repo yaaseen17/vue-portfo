@@ -32,8 +32,8 @@
           ></a>
           <h3>Colleague</h3>
           <p>
-            <span class="stuff">"</span> Yaaseen is a person that is drivven by
-            succes and he is always puts in the hardwork.<span class="stuff"
+            <span class="stuff">"</span> Yaaseen is a person that is driven by
+            success and he always puts in the hardwork.<span class="stuff"
               >"</span
             >
           </p>
@@ -94,8 +94,8 @@
           <h3>Colleague</h3>
           <p>
             <span class="stuff">"</span>
-            Yaaseen designs are pleasing to the eye and he is always
-            enthusiastic<span class="stuff">"</span>
+            Yaaseen's designs are pleasing to the eye, and he is always
+            enthusiastic.<span class="stuff">"</span>
           </p>
         </div>
         <div class="carousel-item">
@@ -123,8 +123,9 @@
           <h3>Colleague</h3>
           <p>
             <span class="stuff">"</span>
-            Yaaseen is consistent in his work and always pushes his skills
-            further to expand his knowledge and skill.
+            Yaaseen is consistent, dependable and acurate in carrying out
+            responsibilities to a successful conclusion. He also displays an
+            ability to learn rapidly and adapt quickly to changing situations.
             <span class="stuff">"</span>
           </p>
         </div>
@@ -153,8 +154,8 @@
           <h3>Lecturer</h3>
           <p>
             <span class="stuff">"</span>
-            Yaaseen takes prive in the work he produces. When he puts his mind
-            to it he is able to archieve greatness<span class="stuff">"</span>
+            Yaaseen takes pride in the work he produces. When he puts his mind
+            to it, he is able to archieve greatness.<span class="stuff">"</span>
           </p>
         </div>
       </div>

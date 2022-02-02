@@ -444,5 +444,11 @@ hr {
     margin-right: 0%;
     margin-left: 0%;
   }
+  .send-text {
+    margin: auto;
+  }
+  .alt-send-button {
+    width: 180px;
+  }
 }
 </style>
