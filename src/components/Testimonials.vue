@@ -106,7 +106,7 @@
             height="150px"
             width="150px"
           />
-          <h2>Nadeem Jhonson</h2>
+          <h2>Nadeem Johnson</h2>
           <a href="https://github.com/RoyalAdvisor" target="_blank"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
