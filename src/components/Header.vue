@@ -86,7 +86,6 @@ export default {};
 
 .typewriter h1 {
   overflow: hidden;
-
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.15em;
