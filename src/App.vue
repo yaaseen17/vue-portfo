@@ -37,6 +37,7 @@
   <section id="resume"><Resume /></section>
   <section id="testamonials"><Testimonials /></section>
   <section id="contact"><Contact /></section>
+  <Footer />
 </template>
 
 <script>
@@ -46,6 +47,7 @@ import Contact from "./components/Contact.vue";
 import Projects from "./components/Projects.vue";
 import Testimonials from "./components/Testimonials.vue";
 import Resume from "./components/Resume.vue";
+import Footer from "./components/Footer.vue";
 export default {
   components: {
     Header,
@@ -54,6 +56,7 @@ export default {
     Projects,
     Testimonials,
     Resume,
+    Footer,
   },
 };
 </script>

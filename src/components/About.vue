@@ -3,7 +3,7 @@
     <div class="grid-container">
       <div class="grid-item">
         <img
-          src="../assets/Yaseen3_9_11zon-min.jpg"
+          src="../assets/Yaseen3_9_11zon-min-removebg-preview.png"
           width="200px"
           height="200px"
         />
@@ -85,7 +85,7 @@ img {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  border: 4px solid rgb(128, 128, 128);
+  border: 2px solid rgb(128, 128, 128);
 }
 li {
   list-style: none;
@@ -96,6 +96,7 @@ li {
   margin-top: 50px;
   margin-left: 10px;
   color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .btn:hover {
   background-color: transparent;

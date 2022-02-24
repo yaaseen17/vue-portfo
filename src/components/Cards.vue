@@ -1,5 +1,5 @@
 <template>
-  <div v-if="projects.length" class="cd">
+  <div class="cd">
     <div v-for="project in projects" :key="project.id">
       <div class="card">
         <img class="card-img-top" :src="project.img" />
@@ -38,37 +38,16 @@
 export default {
   data() {
     return {
-      projects: [
-        {
-          title: "Calculator",
-          img: "https://i.postimg.cc/t48vZBBb/Screenshot-2.png",
-          github: "https://github.com/yaaseen17/calculators",
-          netlify: "https://practical-colden-47f4f4.netlify.app",
-          id: 1,
-        },
-        {
-          title: "Bmi",
-          img: "https://i.postimg.cc/KYzcjvpw/Screenshot-6.png",
-          github: "https://github.com/yaaseen17/bmi",
-          netlify: "https://dreamy-easley-032281.netlify.app",
-          id: 2,
-        },
-        {
-          title: "Store",
-          img: "https://i.postimg.cc/CLz4GjBx/Screenshot-3.png",
-          github: "https://github.com/yaaseen17/store",
-          netlify: "https://cocky-franklin-7c5ff4.netlify.app",
-          id: 3,
-        },
-        {
-          title: "Pokemon",
-          img: "https://i.postimg.cc/bYKRRZQ0/Screenshot-5.png",
-          github: "https://github.com/yaaseen17/pokemon",
-          netlify: "https://lucid-panini-5dd88b.netlify.app",
-          id: 4,
-        },
-      ],
+      projects: [],
     };
+  },
+  mounted() {
+    fetch("https://nodejs-1new.herokuapp.com/projects")
+      .then((res) => res.json())
+      .then((data) => {
+        this.projects = data;
+      })
+      .catch((err) => console.log(err.message));
   },
 };
 </script>

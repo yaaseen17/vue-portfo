@@ -1,14 +1,97 @@
 <template>
   <div class="testimonials">
     <h1>Testimonials</h1>
-
+    <div
+      id="webshop-hero-carousel"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div
+          v-for="(testimonial, index) in testimonials"
+          :key="'testimonial-' + testimonial.id"
+          :class="{ 'carousel-item': true, active: index === active }"
+        >
+          <div class="container">
+            <div class="" style="margin: auto">
+              <div class="d-flex align-items-center">
+                <div class="" style="margin: auto">
+                  <img :src="testimonial.img" alt="" />
+                  <h2>{{ testimonial.name }}</h2>
+                  <h3>{{ testimonial.status }}</h3>
+                  <p class="h2">{{ testimonial.testamonial }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev text-decoration-none w-auto ps-3"
+        href="#webshop-hero-carousel"
+        role="button"
+        data-bs-slide="prev"
+        @click="setActive(active - 1)"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+          fill="currentColor"
+          class="bi bi-chevron-left"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+          />
+        </svg>
+      </a>
+      <a
+        class="carousel-control-next text-decoration-none w-auto pe-3"
+        href="#webshop-hero-carousel"
+        role="button"
+        data-bs-slide="next"
+        @click="setActive(active + 1)"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+          fill="currentColor"
+          class="bi bi-chevron-right"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+          />
+        </svg>
+      </a>
+      <ul class="carousel-indicators">
+        <li
+          v-for="(testimonial, index) in testimonials"
+          :key="'testimonial-' + testimonial.id"
+          :class="{ active: index === active }"
+          data-bs-target="#webshop-hero-carousel"
+          :data-bs-slide-to="index"
+          @click="setActive((active = index))"
+        ></li>
+        <!-- <li data-bs-target="#webshop-hero-carousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#webshop-hero-carousel" data-bs-slide-to="2"></li>
+        <li data-bs-target="#webshop-hero-carousel" data-bs-slide-to="3"></li>
+        <li data-bs-target="#webshop-hero-carousel" data-bs-slide-to="4"></li>
+        <li data-bs-target="#webshop-hero-carousel" data-bs-slide-to="5"></li> -->
+      </ul>
+    </div>
+    <!-- 
     <div
       id="carouselExampleIndicators"
       class="carousel slide"
       data-bs-ride="carousel"
     >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+      <div class="carousel-inner"> -->
+    <!-- <div class="carousel-item active">
           <img
             src="../assets/Muneeb3_1_11zon-min.jpg"
             class="d-block"
@@ -37,8 +120,40 @@
               >"</span
             >
           </p>
-        </div>
-        <div class="carousel-item">
+        </div> -->
+    <!-- <div
+          v-for="(testimonial, index) in testimonials"
+          :key="testimonial.id"
+          :class="{ 'carousel-item': true, active: index === active }"
+        >
+          <img
+            :src="testimonial.id"
+            class="d-block"
+            alt="..."
+            height="150px"
+            width="150px"
+          />
+          <h2>{{ testimonial.name }}</h2>
+          <a :href="testimonial.github" target="_blank"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-github"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+              /></svg
+          ></a>
+          <h3>{{ testamonial.status }}</h3>
+          <p>
+            <span class="stuff">"</span>{{ testimonial.testamonial
+            }}<span class="stuff">"</span>
+          </p>
+        </div> -->
+    <!-- <div class="carousel-item">
           <img
             src="../assets/Na-aim3_7_11zon-min.jpg"
             class="d-block"
@@ -157,13 +272,14 @@
             Yaaseen takes pride in the work he produces. When he puts his mind
             to it, he is able to archieve greatness.<span class="stuff">"</span>
           </p>
-        </div>
-      </div>
+        </div> -->
+    <!-- </div>
       <button
         class="carousel-control-prev"
         type="button"
         data-bs-target="#carouselExampleIndicators"
         data-bs-slide="prev"
+        @click="setActive(active - 1)"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -173,6 +289,7 @@
         type="button"
         data-bs-target="#carouselExampleIndicators"
         data-bs-slide="next"
+        @click="setActive(active + 1)"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
@@ -210,12 +327,39 @@
           data-bs-slide-to="4"
           aria-label="Slide 5"
         ></button>
-      </div>
-    </div>
+      </div> -->
+    <!-- </div> -->
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  data() {
+    return {
+      testimonials: [],
+      active: 0,
+    };
+  },
+  methods: {
+    setActive(index) {
+      let active = index;
+
+      if (index === this.testimonials.length) active = 0;
+      else if (index === -1) active = this.testimonials.length - 1;
+
+      this.active = active;
+    },
+  },
+  mounted() {
+    fetch("https://nodejs-1new.herokuapp.com/testimonials")
+      .then((res) => res.json())
+      .then((data) => {
+        this.testimonials = data;
+      })
+      .catch((err) => console.log(err.message));
+  },
+};
+</script>
 
 <style scoped>
 .testimonials {
@@ -231,8 +375,10 @@
   margin-left: 100px;
 }
 img {
-  margin: auto;
+  margin: 0 auto 30px;
   border-radius: 50%;
+  height: 150px;
+  width: 150px;
 }
 svg {
   color: white;
@@ -240,11 +386,13 @@ svg {
 p {
   text-align: center;
   width: 50%;
-  margin: auto;
+  margin: 30px auto 0px;
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   height: 150px;
+  font-size: 15px;
+  font-weight: 100;
 }
 .carousel-control-next,
 .carousel-control-prev {
@@ -282,6 +430,18 @@ h3 {
   .testimonials {
     margin-right: 0%;
     margin-left: 0%;
+  }
+}
+svg:hover {
+  color: rgb(66, 66, 66);
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+  svg {
+    width: 20px;
   }
 }
 </style>
