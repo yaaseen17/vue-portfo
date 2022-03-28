@@ -1,5 +1,10 @@
 <template>
   <div class="cd">
+    <span
+      v-show="loading"
+      class="spinner-border spinner-border-sm"
+      style="width: 70px; height: 70px; color: white"
+    ></span>
     <div v-for="project in projects" :key="project.id">
       <div class="card">
         <img class="card-img-top" :src="project.img" />
@@ -25,7 +30,7 @@
               class="btn btn-secondary text-dark"
               style="border: 2px solid"
             >
-              Netlify
+              Live
             </button>
           </a>
         </div>
@@ -39,13 +44,16 @@ export default {
   data() {
     return {
       projects: [],
+      loading: false,
     };
   },
   mounted() {
+    this.loading = true;
     fetch("https://nodejs-1new.herokuapp.com/projects")
       .then((res) => res.json())
       .then((data) => {
         this.projects = data;
+        this.loading = false;
       })
       .catch((err) => console.log(err.message));
   },

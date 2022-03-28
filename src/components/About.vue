@@ -10,9 +10,9 @@
         <h3>About me</h3>
         <p>
           I am a highly motivated, creative and ambitious individual who thrives
-          off problem solving and challenging my capabalities. I am extremely
+          off problem solving and challenging my capabilities. I am extremely
           enthusiastic about introducing fresh ideas as well as learning new
-          methods or skills that will satisfy any entity i may represent.
+          methods or skills that will satisfy any entity I may represent.
         </p>
       </div>
       <div class="grid-item-right">
@@ -23,7 +23,7 @@
           <li class="text-secondary">
             Surname: <span class="ans">Davids</span>
           </li>
-          <li class="text-secondary">Age: <span class="ans">20</span></li>
+          <li class="text-secondary">DOB: <span class="ans">20</span></li>
           <li class="text-secondary">
             location: <span class="ans">Cape town</span>
           </li>

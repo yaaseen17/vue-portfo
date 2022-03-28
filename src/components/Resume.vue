@@ -34,8 +34,8 @@
                 <div class="timeline-step"><span>2021</span>05</div>
                 <h3 class="title">Drone Aviation</h3>
                 <p class="description">
-                  I studied and completed my drone aviation course
-                  from May to July and obtained my drone pilot licence.
+                  I studied and completed my drone aviation course from May to
+                  July and obtained my drone pilot licence.
                 </p>
               </div>
             </div>
@@ -56,9 +56,10 @@
                 <div class="timeline-step"><span>2021</span>09</div>
                 <h3 class="title">Web Developement</h3>
                 <p class="description">
-                  In September of 2021 i started my course on Web development at
-                  Life Choices Academy. Since my inception in the academy i have become versed in HTML, CSS,
-                  Javascript, Bootsrap, VUE JS, Databases and MYSQl.
+                  In September of 2021 I started my course on Web development at
+                  Life Choices Academy. Since my inception in the academy i have
+                  become versed in HTML, CSS, Javascript, Bootsrap, VUE JS,
+                  Databases and MYSQl.
                 </p>
               </div>
             </div>

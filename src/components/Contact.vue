@@ -52,30 +52,22 @@
       <div class="direct-contact-container">
         <ul class="contact-list">
           <li class="list-item">
-            <i class="fa fa-map-marker fa-2x"
-              ><span class="contact-text place"
-                >Cape Town, South Africa</span
-              ></i
+            <span class="contact-text place">Cape Town, South Africa</span>
+          </li>
+
+          <li class="list-item">
+            <span class="contact-text phone"
+              ><a href="tel:066-267-7072" title="Give me a call"
+                >066 267 7072</a
+              ></span
             >
           </li>
 
           <li class="list-item">
-            <i class="fa fa-phone fa-2x"
-              ><span class="contact-text phone"
-                ><a href="tel:066-267-7072" title="Give me a call"
-                  >066 267 7072</a
-                ></span
-              ></i
-            >
-          </li>
-
-          <li class="list-item">
-            <i class="fa fa-envelope fa-2x"
-              ><span class="contact-text gmail"
-                ><a href="mailto:#yaaseendav@gmail.com" title="Send me an email"
-                  >yaaseendav@gmail.com</a
-                ></span
-              ></i
+            <span class="contact-text gmail"
+              ><a href="mailto:#yaaseendav@gmail.com" title="Send me an email"
+                >yaaseendav@gmail.com</a
+              ></span
             >
           </li>
         </ul>
@@ -123,7 +115,6 @@ export default {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-/* Location, Phone, Email Section */
 .contact-list {
   list-style-type: none;
   margin-left: -30px;
@@ -230,13 +221,11 @@ input::-webkit-input-placeholder {
 }
 
 input:-moz-placeholder {
-  /* Firefox 18- */
   color: rgba(245, 245, 245, 1) !important;
   opacity: 1;
 }
 
 input::-moz-placeholder {
-  /* Firefox 19+ */
   color: rgba(245, 245, 245, 1) !important;
   opacity: 1;
 }

@@ -1,6 +1,6 @@
 <template>
   <Header id="home" />
-  <nav role="navigation">
+  <nav role="navigation" :class="{ active: isActive }">
     <div id="menuToggle">
       <input type="checkbox" />
 
@@ -9,12 +9,12 @@
       <span></span>
 
       <ul id="menu">
-        <a href="#home"><li>Home</li></a>
-        <a href="#about"><li>About</li></a>
-        <a href="#projects"><li>Projects</li></a>
-        <a href="#resume"><li>Resume</li></a>
-        <a href="#testamonials"><li>Testimonials</li></a>
-        <a href="#contact"><li>Contact</li></a>
+        <a href="#home" @click="togglenav"><li>Home</li></a>
+        <a href="#about" @click="togglenav"><li>About</li></a>
+        <a href="#projects" @click="togglenav"><li>Projects</li></a>
+        <a href="#resume" @click="togglenav"><li>Resume</li></a>
+        <a href="#testamonials" @click="togglenav"><li>Testimonials</li></a>
+        <a href="#contact" @click="togglenav"><li>Contact</li></a>
       </ul>
     </div>
   </nav>
@@ -49,6 +49,11 @@ import Testimonials from "./components/Testimonials.vue";
 import Resume from "./components/Resume.vue";
 import Footer from "./components/Footer.vue";
 export default {
+  data() {
+    return {
+      isActive: false,
+    };
+  },
   components: {
     Header,
     About,
@@ -57,6 +62,11 @@ export default {
     Testimonials,
     Resume,
     Footer,
+  },
+  methods: {
+    togglenav() {
+      this.isActive = !this.isActive;
+    },
   },
 };
 </script>
