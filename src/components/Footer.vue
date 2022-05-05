@@ -89,7 +89,7 @@ export default {};
   width: 100%;
   height: 150px;
   margin-bottom: 0;
-  background-color: black;
+  background-color: rgb(34, 34, 34);
 }
 .copyright {
   padding-top: 20px;
@@ -116,7 +116,7 @@ export default {};
   margin: 10px 3px;
   border-radius: 50%;
   color: #fff;
-  background-color: rgb(13, 13, 13);
+  background-color: rgb(34, 34, 34);
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }

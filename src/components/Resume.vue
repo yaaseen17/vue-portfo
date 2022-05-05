@@ -79,7 +79,7 @@ export default {};
   margin: 40px;
   padding: 40px;
   height: fit-content;
-  background-color: rgb(13, 13, 13);
+  background-color: rgb(34, 34, 34);
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;

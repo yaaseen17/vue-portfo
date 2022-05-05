@@ -9,7 +9,14 @@
       <span></span>
 
       <ul id="menu">
-        <a href="#home" @click="togglenav"><li>Home</li></a>
+        <a
+          href="#home"
+          @click="togglenav"
+          class="nav-link router-link-exact-active router-link-active"
+          target="_self"
+          aria-current="page"
+          ><li>Home</li></a
+        >
         <a href="#about" @click="togglenav"><li>About</li></a>
         <a href="#projects" @click="togglenav"><li>Projects</li></a>
         <a href="#resume" @click="togglenav"><li>Resume</li></a>
@@ -77,7 +84,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: rgb(131, 131, 131);
+  background-color: #333333;
 }
 
 #home {
@@ -86,27 +93,29 @@ export default {
 }
 #about {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 #contact {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 #projects {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 #resume {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   position: sticky;
 }
 #testamonial {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   position: sticky;
 }
-
+a:hover {
+  color: black;
+}
 #menuToggle {
   display: block;
   position: fixed;
