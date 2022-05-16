@@ -106,7 +106,7 @@ h1 {
   margin-top: 150px;
 }
 #move {
-  margin-top: 10%;
+  margin-top: 6%;
 }
 .bi {
   color: white;

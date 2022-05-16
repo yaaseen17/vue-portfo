@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about box">
     <div class="grid-container">
       <div class="grid-item">
         <img

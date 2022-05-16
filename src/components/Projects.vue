@@ -36,7 +36,7 @@ h1 {
   }
 }
 @media screen and (max-width: 500px) {
-  .projects  {
+  .projects {
     margin-right: 0%;
     margin-left: 0%;
   }

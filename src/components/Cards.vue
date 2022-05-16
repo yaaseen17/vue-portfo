@@ -82,6 +82,7 @@ h3 {
   position: unset;
   width: 18rem;
 }
+
 .card-img-top {
   border-radius: 10px;
   height: 250px;
@@ -97,7 +98,7 @@ h3 {
   background: transparent;
 }
 .hovers:hover {
-  background-color: grey;
+  background-color: gray;
 }
 
 @media screen and (max-width: 460px) {
