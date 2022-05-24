@@ -37,8 +37,14 @@
           </li>
         </ul>
         <button class="btn btn-secondary" @click="toggleModal">
-          Click for my Skills
+          My Skills
         </button>
+        <a
+          href="https://www.canva.com/design/DAFBhHKulLY/BxD4D-g2gBUc_8fXRramYg/view?utm_content=DAFBhHKulLY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+          target="_blank"
+        >
+          <button class="btn btn-secondary">My CV</button></a
+        >
       </div>
     </div>
   </div>

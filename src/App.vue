@@ -8,7 +8,7 @@
     <Header id="home" />
   </div>
 
-  <nav role="navigation" :class="{ active: isActive }">
+  <nav id="nav" role="navigation">
     <div id="menuToggle">
       <input type="checkbox" />
 
@@ -17,19 +17,12 @@
       <span></span>
 
       <ul id="menu">
-        <a
-          href="#home"
-          @click="togglenav"
-          class="nav-link router-link-exact-active router-link-active"
-          target="_self"
-          aria-current="page"
-          ><li>Home</li></a
-        >
-        <a href="#about" @click="togglenav"><li>About</li></a>
-        <a href="#projects" @click="togglenav"><li>Projects</li></a>
-        <a href="#resume" @click="togglenav"><li>Resume</li></a>
-        <a href="#testamonials" @click="togglenav"><li>Testimonials</li></a>
-        <a href="#contact" @click="togglenav"><li>Contact</li></a>
+        <a href="#home" class="home"><li>Home</li></a>
+        <a href="#about"><li>About</li></a>
+        <a href="#projects"><li>Projects</li></a>
+        <a href="#resume"><li>Resume</li></a>
+        <a href="#testamonials"><li>Testimonials</li></a>
+        <a href="#contact"><li>Contact</li></a>
       </ul>
     </div>
   </nav>
@@ -94,7 +87,7 @@ import Footer from "./components/Footer.vue";
 export default {
   data() {
     return {
-      isActive: false,
+      active: "home",
       isHidden: true,
     };
   },
@@ -108,8 +101,9 @@ export default {
     Footer,
   },
   methods: {
-    togglenav() {
-      this.isActive = !this.isActive;
+    makeActive: function (item) {
+      // When a model is changed, the view will be automatically updated.
+      this.active = item;
     },
     toggleSnow() {
       this.isHidden = !this.isHidden;
@@ -183,8 +177,9 @@ a:hover {
 
   transition: color 0.3s ease;
 }
-
-#menuToggle a:hover {
+a,
+#menu a:hover {
+  text-decoration: none;
   color: tomato;
 }
 
